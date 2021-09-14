@@ -1,0 +1,340 @@
+body {
+    background-image: linear-gradient(to right, #000104, #000110, #000120);
+    background-image: linear-gradient(to top, #000110, #1f224d, #5d5e80 #000110);
+}
+
+p{
+    text-align: center;
+    color: whitesmoke;
+    font-family: sans-serif;
+}
+#container {
+    height: 630px;
+    width: 700px;
+    margin-left: 380px;
+    transform: rotateX(50deg);
+    display: inline-block;
+    overflow: hidden;
+    padding-left: 20px;
+}
+
+#planetKey{
+    height: 500px;
+    width: 100px;
+    display: inline-block;
+    overflow: hidden;
+    border-radius: 15px;
+    border-top: 4px solid whitesmoke;
+    border-bottom: 3px solid whitesmoke;
+    border-right: 4px solid whitesmoke;
+}
+
+#key1{
+    height: 50px;
+    width: 100px;
+    background-image: linear-gradient(to right, rgb(119, 61, 7), rgba(66, 53, 9, 0.692));
+    overflow: hidden;
+}
+
+#key2{
+    height: 50px;
+    width: 100px;
+    background-image: linear-gradient(to right, rgb(77, 42, 10), rgb(80, 60, 6));
+    overflow: hidden;
+}
+
+#key3{
+    height: 50px;
+    width: 100px;
+    background-image: linear-gradient(to right, rgb(41, 41, 139), rgb(54, 110, 156), rgb(23, 97, 23), rgb(110, 72, 38));
+    overflow: hidden;
+}
+
+#key4{
+    height: 50px;
+    width: 100px;
+    background-image: linear-gradient(to right, saddlebrown, grey);
+    overflow: hidden;
+}
+
+#key5{
+    height: 50px;
+    width: 100px;
+    background-image: linear-gradient(to right, sandybrown, sandybrown, white, whitesmoke);
+    overflow: hidden;
+}
+
+#key5 p, #key6 p{
+    color: #000120;
+}
+#key6{
+    height: 50px;
+    width: 100px;
+    background-color: rgb(146, 146, 74);
+    background-image: url("https://cdn.staticcrate.com/stock-hd/graphics/set-extensions-space-planet-rings-from-surface/GraphicsCrate-Planet_Ring_From_Surface_00_prev_sm.png");
+    background-size: cover;
+    background-position: center;  
+    overflow: hidden;
+}
+
+#key7{
+    height: 50px;
+    width: 100px;
+    background-image: linear-gradient(to right, rgb(9, 20, 70), rgb(5, 5, 41));
+    overflow: hidden;
+}
+
+#key8{
+    height: 50px;
+    width: 100px;
+    background-image: linear-gradient(to right, rgb(6, 22, 6), rgb(7, 7, 46));
+    overflow: hidden;
+}
+
+#key9{
+    height: 50px;
+    width: 100px;
+    background-image: linear-gradient(to right, rgb(16, 16, 49), rgb(6, 58, 55));
+    overflow: hidden;
+}
+
+#key10{
+    height: 50px;
+    width: 100px;
+    overflow: hidden;
+    background-color: #00010448;
+}
+#orbit9 {
+    height: 550px;
+    width: 550px;
+    border: 1px solid rgb(105, 79, 79);
+    margin-top: 50px;
+    margin-left: 0px;
+    position: absolute;
+    display: inline-block;
+    border-radius: 50%;
+    animation: 120s spin infinite;
+}
+
+#pluto {
+    height: 30px;
+    width: 30px;
+    position: relative;
+    background-color: black;
+    border-radius: 50%;
+    margin-left: 160px;
+    background-image: linear-gradient(to right, rgb(16, 16, 49), rgb(6, 58, 55));
+    /* animation: 60s spin infinite; */
+}
+
+#orbit8 {
+    height: 480px;
+    width: 480px;
+    border: 1px solid rgb(105, 79, 79);
+    margin-top: 80px;
+    margin-left: 35px;
+    position: absolute;
+    display: inline-block;
+    border-radius: 50%;
+    animation: 100s spin infinite;
+}
+
+#neptune {
+    height: 30px;
+    width: 30px;
+    position: relative;
+    background-color: black;
+    border-radius: 50%;
+    margin-left: 150px;
+    background-image: linear-gradient(to right, rgb(6, 22, 6), rgb(7, 7, 46));
+    /* animation: 60s spin infinite; */
+}
+
+#orbit7 {
+    height: 400px;
+    width: 400px;
+    border: 1px solid rgb(105, 79, 79);
+    position: absolute;
+    display: inline-block;
+    margin-top: 110px;
+    margin-left: 70px;
+    border-radius: 50%;
+    animation: 85s spin infinite;
+}
+
+#uranus {
+    height: 30px;
+    width: 30px;
+    position: relative;
+    background-color: black;
+    border-radius: 50%;
+    margin-left: 260px;
+    background-image: linear-gradient(to right, rgb(9, 20, 70), rgb(5, 5, 41));
+    /* animation: 60s spin infinite; */
+}
+
+#orbit6 {
+    height: 320px;
+    width: 320px;
+    border: 1px solid rgb(105, 79, 79);
+    position: absolute;
+    display: inline-block;
+    margin-top: 140px;
+    margin-left: 105px;
+    border-radius: 50%;
+    animation: 75s spin infinite;
+}
+
+#saturn {
+    height: 25px;
+    width: 25px;
+    position: relative;
+    background-color: black;
+    border-radius: 50%;
+    margin-left: 220px;
+    background-color: rgb(146, 146, 74);
+    background-image: url("https://cdn.staticcrate.com/stock-hd/graphics/set-extensions-space-planet-rings-from-surface/GraphicsCrate-Planet_Ring_From_Surface_00_prev_sm.png");
+    background-size: cover;
+    background-position: center;
+    /* animation: 80s spin infinite; */
+}
+
+#orbit5 {
+    height: 240px;
+    width: 240px;
+    border: 1px solid rgb(105, 79, 79);
+    position: absolute;
+    display: inline-block;
+    margin-top: 170px;
+    margin-left: 140px;
+    border-radius: 50%;
+    animation: 60s spin infinite;
+}
+
+#jupiter {
+    height: 30px;
+    width: 30px;
+    position: relative;
+    background-color: black;
+    border-radius: 50%;
+    margin-left: 160px;
+    background-image: linear-gradient(to right, sandybrown, sandybrown, white, whitesmoke);
+    /* animation: 60s spin infinite; */
+}
+
+#orbit4 {
+    height: 180px;
+    width: 180px;
+    position: absolute;
+    border: 1px solid rgb(105, 79, 79);
+    position: absolute;
+    display: inline-block;
+    margin-top: 200px;
+    margin-left: 170px;
+    border-radius: 50%;
+    animation: 50s spin infinite;
+}
+
+#mars {
+    height: 23px;
+    width: 23px;
+    position: relative;
+    background-color: black;
+    border-radius: 50%;
+    margin-left: 130px;
+    background-image: linear-gradient(to right, saddlebrown, grey);
+    /* animation: 60s spin infinite; */
+}
+
+#orbit3 {
+    height: 120px;
+    width: 120px;
+    position: absolute;
+    border: 1px solid rgb(105, 79, 79);
+    position: absolute;
+    display: inline-block;
+    margin-top: 230px;
+    margin-left: 200px;
+    border-radius: 50%;
+    animation: 40s spin infinite;
+}
+
+#earth {
+    height: 20px;
+    width: 20px;
+    position: relative;
+    background-color: black;
+    border-radius: 50%;
+    margin-left: 80px;
+    background-image: linear-gradient(to right, rgb(41, 41, 139), rgb(54, 110, 156), rgb(23, 97, 23), rgb(110, 72, 38));
+    /* animation: 60s spin infinite; */
+}
+
+#orbit2 {
+    height: 80px;
+    width: 80px;
+    position: absolute;
+    border: 1px solid rgb(105, 79, 79);
+    position: absolute;
+    display: inline-block;
+    margin-top: 251px;
+    margin-left: 220px;
+    border-radius: 50%;
+    animation: 30s spin infinite;
+}
+
+#venus {
+    height: 12px;
+    width: 12px;
+    position: relative;
+    background-color: black;
+    border-radius: 50%;
+    margin-left: 60px;
+    background-image: linear-gradient(to right, rgb(77, 42, 10), rgb(80, 60, 6));
+    /* animation: 60s spin infinite; */
+}
+
+#orbit1 {
+    height: 55px;
+    width: 55px;
+    position: absolute;
+    border: 1px solid rgb(105, 79, 79);
+    position: absolute;
+    display: inline-block;
+    margin-top: 265px;
+    margin-left: 233px;
+    border-radius: 50%;
+    animation: 20s spin infinite;
+}
+
+#mercury {
+    height: 12px;
+    width: 12px;
+    position: relative;
+    background-color: black;
+    border-radius: 50%;
+    margin-left: 40px;
+    background-image: linear-gradient(to right, rgb(119, 61, 7), rgba(66, 53, 9, 0.692));
+    /* animation: 60s spin infinite; */
+}
+
+#sun {
+    height: 25px;
+    width: 20px;
+    background-color: gold;
+    margin-top: 283px;
+    margin-left: 253px;
+    position: absolute;
+    display: inline-block;
+    border-radius: 50%;
+    box-shadow: 1px 1px 7px 7px goldenrod;
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
